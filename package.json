@@ -11,9 +11,18 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^14.2.0",
+    "express": "^4.17.2",
     "nodemon": "^2.0.15",
     "telegraf": "^4.6.0"
   },
   "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theumiddev/Tando_bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theumiddev/Tando_bot/issues"
+  },
+  "homepage": "https://github.com/theumiddev/Tando_bot#readme",
   "description": ""
 }

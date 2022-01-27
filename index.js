@@ -1,15 +1,15 @@
 const { Telegraf,  Markup} = require("telegraf")
 require('dotenv').config()
-const bot = new Telegraf(process.env.BOT_TOKEN);
-// const app = require("express")();
- 
-// app.get("/",(req, res)=>{
-//   res.send("hello world");
-// });
+const bot = new Telegraf(process.env.TOKEN);
+const app = require('express')();
+n
+app.get("/",(req, res)=>{
+  res.send("hello world");
+});
 
-// app.listen(process.env.PORT, () =>
-//   console.log( `Listening on port ${process.env.PORT}`)
-// );
+app.listen(process.env.PORT, () =>
+  console.log( `Listening on port ${process.env.PORT}`)
+);
 
 bot.start((ctx) =>{
     const {first_name} = ctx.message.from
@@ -23,7 +23,7 @@ bot.start((ctx) =>{
 bot.hears('🧑‍💻ADMIN / ALOQA🧑‍💻', (ctx) => {
     return ctx.reply(`
 
-    👤TANDO uc admini:@TANDO_UC_GARANT
+👤TANDO uc admini:@TANDO_UC_GARANT
 
 🧑‍💻 TANDO UC bot admini:@sobirov_dev
 
